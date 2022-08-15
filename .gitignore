@@ -1,0 +1,10 @@
+*
+!.gitignore
+!src
+!src/**/*
+!analysis.py
+!index.html
+!package-lock.json
+!package.json
+!stats.npy
+!vite.config.js

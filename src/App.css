@@ -1,0 +1,31 @@
+body {
+  padding-top: 10px;
+}
+
+.counter {
+  max-width: 400px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 8px;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+  grid-gap: 8px;
+}
+
+.buttons>button {
+  aspect-ratio: 1 / 1;
+}
+
+
+.choice {
+  font-size: 2rem;
+}
+
+.start-over {
+  margin-top: 2em;
+  margin-left: auto;
+}
